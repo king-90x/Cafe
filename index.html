@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maple &amp; Bean Café | Specialty Coffee, Fresh Bakes &amp; Slow Mornings</title>
+    <meta name="description" content="Small-batch coffee, in-house baking and a relaxed space to meet, read or work.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/image copy 45.png" type="icon">
+</head>
+
+<body>
+
+    <!-- Top bar -->
+    <div class="topbar d-none d-md-block">
+        <div class="container d-flex justify-content-between">
+            <span><i class="bi bi-clock"></i> Open daily 8:00 am – 10:00 pm</span>
+            <span><i class="bi bi-geo-alt"></i> 12 Garden Street, near City Park &nbsp;&nbsp; <i
+                    class="bi bi-telephone"></i> +91 9472648343</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" id="siteNav">
+        <div class="container">
+            <a class="navbar-brand" href="#top"><i class="bi bi-cup-hot-fill"></i> Maple &amp; Bean</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><i
+                    class="bi bi-list"></i></button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#favourites">Favourites</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="story.html">Our story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="visit.html">Visit us</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li> -->
+                    <li class="nav-item mt-3 mt-lg-0"><a class="btn btn-cafe btn-sm" href="#visit">Book a Table</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="top">
+
+        <!-- 1. HERO -->
+        <section class="hero">
+            <img src="images/image.png" alt="Barista pouring latte art at the café counter in warm morning light"
+                width="1920" height="1080" class="hero-img" onerror="this.remove()">
+            <div class="hero-overlay"></div>
+            <div class="container position-relative hero-content">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-7">
+                        <p class="hero-tag"><span></span> Specialty coffee &amp; fresh bakes</p>
+                        <h1>Good coffee, baked fresh, never in a hurry.</h1>
+                        <p class="lead">Small-batch coffee, pastries from our own oven and a table that is always
+                            waiting for you.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="menu.html" class="btn btn-gold btn-lg">Explore Menu</a>
+                            <a href="#visit" class="btn btn-outline-light btn-lg">Book a Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container hero-strip-wrap border">
+                <div class="hero-strip">
+                    <div><i class="bi bi-clock"></i>
+                        <div><strong>Open today</strong><span>8:00 am – 10:00 pm</span></div>
+                    </div>
+                    <div><i class="bi bi-geo-alt"></i>
+                        <div><strong>Find us</strong><span>12 Garden Street</span></div>
+                    </div>
+                    <div><i class="bi bi-wifi"></i>
+                        <div><strong>Free Wi-Fi</strong><span>Power at most tables</span></div>
+                    </div>
+                    <div><i class="bi bi-flower1"></i>
+                        <div><strong>Garden patio</strong><span>Open till sunset</span></div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- 2. ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-media">
+                            <div class="img-zoom ratio-portrait" data-label="about.jpg · 800×1000"><img
+                                    src="images/image copy.png"
+                                    alt="Hands holding a warm cup of coffee beside a freshly baked croissant"
+                                    width="800" height="1000" loading="lazy" onerror="this.remove()"></div>
+                            <div class="about-badge"><strong>Baked daily</strong><span>Every morning, from our own
+                                    oven</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-title">A little about us</h2>
+                        <p class="lead-text">Maple &amp; Bean began with one espresso machine and a very large oven.
+                            Today it is a neighbourhood café where nobody rushes you out.</p>
+                        <p>We roast in small batches, bake every morning and keep the menu short so everything on it is
+                            done well. You will find us at 12 Garden Street, a short walk from the park. Come for a flat
+                            white, stay for the almond croissant.</p>
+                        <div class="row g-3 about-feats">
+                            <div class="col-sm-4"><i class="bi bi-cup-hot"></i>
+                                <h3>Small-batch coffee</h3>
+                            </div>
+                            <div class="col-sm-4"><i class="bi bi-basket"></i>
+                                <h3>Fresh-baked food</h3>
+                            </div>
+                            <div class="col-sm-4"><i class="bi bi-people"></i>
+                                <h3>Relaxed atmosphere</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SIGNATURE FAVOURITES -->
+        <section class="section section-alt" id="favourites">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Signature favourites</h2>
+                    <p>The cups and plates our regulars order again and again.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="flat-white.jpg · 600×450"><span
+                                    class="dish-badge">Bestseller</span><img src="images/image copy 2.png"
+                                    alt="Flat white with latte art in a ceramic cup" width="600" height="450"
+                                    loading="lazy" onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>Maple Flat White</h3><span class="price">₹220</span>
+                                </div>
+                                <p>Double espresso, silky milk and a thread of maple syrup.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="cold-brew.jpg · 600×450"><img
+                                    src="images/image copy 3.png"
+                                    alt="Glass of cold brew coffee over ice with an orange peel" width="600"
+                                    height="450" loading="lazy" onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>18-Hour Cold Brew</h3><span class="price">₹240</span>
+                                </div>
+                                <p>Steeped slowly for a smooth, chocolatey finish, served over ice.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="croissant.jpg · 600×450"><span
+                                    class="dish-badge">Baked today</span><img src="images/image copy 5.png"
+                                    alt="Golden almond croissant on a plate" width="600" height="450" loading="lazy"
+                                    onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>Almond Croissant</h3><span class="price">₹180</span>
+                                </div>
+                                <p>Buttery layers filled with almond cream, baked every morning.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="sandwich.jpg · 600×450"><img
+                                    src="images/image copy 6.png"
+                                    alt="Grilled sandwich with pesto and mozzarella on sourdough" width="600"
+                                    height="450" loading="lazy" onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>Pesto Sourdough Melt</h3><span class="price">₹290</span>
+                                </div>
+                                <p>House sourdough, basil pesto, mozzarella and roasted tomato.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="brownie.jpg · 600×450"><span
+                                    class="dish-badge">Guest pick</span><img src="images/image copy 7.png"
+                                    alt="Warm chocolate brownie with a scoop of vanilla ice cream" width="600"
+                                    height="450" loading="lazy" onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>Espresso Brownie</h3><span class="price">₹210</span>
+                                </div>
+                                <p>Dense, fudgy and served warm with vanilla ice cream.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="dish-card">
+                            <div class="img-zoom ratio-card" data-label="masala-chai.jpg · 600×450"><img
+                                    src="images/image copy 8.png"
+                                    alt="Masala chai in a glass cup with whole spices beside it" width="600"
+                                    height="450" loading="lazy" onerror="this.remove()"></div>
+                            <div class="dish-body">
+                                <div class="dish-top">
+                                    <h3>Cardamom Masala Chai</h3><span class="price">₹120</span>
+                                </div>
+                                <p>Slow-simmered with whole spices, ginger and fresh milk.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="text-center mt-5"><a href="menu.html" class="btn btn-outline-cafe btn-lg">View Full Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FIND YOUR FAVOURITE -->
+        <section class="section" id="categories">
+            <div class="container">
+                <div class="section-head text-center mx-auto">
+                    <h2 class="section-title">Find your favourite</h2>
+                    <p>Choose a category and go straight to it on the menu.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#hot-coffee"><i
+                                class="bi bi-cup-hot"></i><span>Hot Coffee</span><small>Espresso, flat white,
+                                latte</small></a></div>
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#cold-coffee"><i
+                                class="bi bi-cup-straw"></i><span>Cold Coffee</span><small>Cold brew, iced latte,
+                                frappe</small></a></div>
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#tea"><i
+                                class="bi bi-cup"></i><span>Tea</span><small>Chai, green and herbal</small></a></div>
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#breakfast"><i
+                                class="bi bi-egg-fried"></i><span>Breakfast</span><small>Eggs, toasts, granola
+                                bowls</small></a></div>
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#savouries"><i
+                                class="bi bi-basket2"></i><span>Savouries</span><small>Sandwiches, quiches,
+                                pasta</small></a></div>
+                    <div class="col-6 col-lg-4"><a class="cat-tile" href="menu.html#desserts"><i
+                                class="bi bi-cake2"></i><span>Desserts</span><small>Cakes, brownies, tarts</small></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. A SPACE FOR EVERY MOOD -->
+        <section class="section section-dark" id="space">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">A space for every mood</h2>
+                    <p>Four ways to spend an hour, or an entire afternoon, with us.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="mood-card img-zoom" data-label="mood-friends.jpg · 600×750"><img
+                                src="images/image copy 9.png" alt="Friends laughing around a large communal table"
+                                width="600" height="750" loading="lazy" onerror="this.remove()">
+                            <div class="mood-text">
+                                <h3>Hang out with friends</h3>
+                                <p>A long communal table and deep sofas made for catch-ups.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="mood-card img-zoom" data-label="mood-reading.jpg · 600×750"><img
+                                src="images/image copy 10.png" alt="Quiet reading corner with an armchair and bookshelf"
+                                width="600" height="750" loading="lazy" onerror="this.remove()">
+                            <div class="mood-text">
+                                <h3>Quiet reading corner</h3>
+                                <p>An armchair, soft light and a shelf of books to borrow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="mood-card img-zoom" data-label="mood-work.jpg · 600×750"><img
+                                src="images/image copy 11.png"
+                                alt="Laptop on a wooden table near a window with a coffee cup" width="600" height="750"
+                                loading="lazy" onerror="this.remove()">
+                            <div class="mood-text">
+                                <h3>Work sessions</h3>
+                                <p>Free Wi-Fi, power sockets and quiet window-side tables.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="mood-card img-zoom" data-label="mood-outdoor.jpg · 600×750"><img
+                                src="images/image copy 12.png" alt="Outdoor seating with plants and string lights"
+                                width="600" height="750" loading="lazy" onerror="this.remove()">
+                            <div class="mood-text">
+                                <h3>Outdoor seating</h3>
+                                <p>A shaded garden patio, best at golden hour.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. WHAT MAKES US SPECIAL -->
+        <section class="section section-dark" id="special">
+            <div class="container">
+                <div class="section-head text-center mx-auto">
+                    <h2 class="section-title">What makes us special</h2>
+                    <p>Four things we refuse to cut corners on.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="highlight"><span class="icon-circle"><i class="bi bi-bag-heart"></i></span>
+                            <h3>Carefully sourced beans</h3>
+                            <p>Single-origin lots from small farms, roasted in small batches.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="highlight"><span class="icon-circle"><i class="bi bi-droplet-half"></i></span>
+                            <h3>Made to order</h3>
+                            <p>Every cup is pulled and poured when you order it, never before.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="highlight"><span class="icon-circle"><i class="bi bi-fire"></i></span>
+                            <h3>Baked in-house</h3>
+                            <p>Breads, croissants and cakes come out of our own oven each morning.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="highlight"><span class="icon-circle"><i class="bi bi-chat-heart"></i></span>
+                            <h3>Personal service</h3>
+                            <p>We learn your name and your usual order. Ask us for a recommendation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. GALLERY -->
+        <section class="section section-alt" id="gallery">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Inside the café</h2>
+                    <p>The room, the counter, the cups and the small details.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="img-zoom g1" data-label="gallery-1.jpg · 1000×800"><img src="images/image copy 13.png"
+                            alt="Café interior with wooden tables and hanging lamps" width="1000" height="800"
+                            loading="lazy" onerror="this.remove()"></div>
+                    <div class="img-zoom g2" data-label="gallery-2.jpg · 600×600"><img src="images/image copy 14.png"
+                            alt="Espresso machine on the coffee counter" width="600" height="600" loading="lazy"
+                            onerror="this.remove()"></div>
+                    <div class="img-zoom g3" data-label="gallery-3.jpg · 600×600"><img src="images/image copy 16.png"
+                            alt="Display case with fresh pastries" width="600" height="600" loading="lazy"
+                            onerror="this.remove()"></div>
+                    <div class="img-zoom g4" data-label="gallery-4.jpg · 600×600"><img src="images/image copy 17.png"
+                            alt="Window seating filled with natural light" width="600" height="600" loading="lazy"
+                            onerror="this.remove()"></div>
+                    <div class="img-zoom g5" data-label="gallery-5.jpg · 600×600"><img src="images/image copy 15.png"
+                            alt="Close-up of coffee beans being ground" width="600" height="600" loading="lazy"
+                            onerror="this.remove()"></div>
+                    <div class="img-zoom g6" data-label="gallery-6.jpg · 1000×800"><img src="images/image copy 18.png"
+                            alt="Ceramic cups and plants on a wooden shelf" width="1000" height="800" loading="lazy"
+                            onerror="this.remove()"></div>
+                            <div class="img-zoom g6" data-label="gallery-6.jpg · 1000×800"><img src="images/image copy 19.png"
+                            alt="Ceramic cups and plants on a wooden shelf" width="1000" height="800" loading="lazy"
+                            onerror="this.remove()"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. REVIEWS -->
+        <section class="section" id="reviews">
+            <div class="container">
+                <div class="section-head text-center mx-auto">
+                    <h2 class="section-title">What our guests say</h2>
+                    <p>Sample reviews shown here. Replace them with real ones and name the source.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <figure class="review">
+                            <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <blockquote>The flat white is the best I've had in the city, and the croissants are still
+                                warm when they reach the table.</blockquote>
+                            <figcaption><span class="avatar">AM</span>
+                                <div><strong>Aarav Mehta</strong><small>Google Reviews</small></div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="review">
+                            <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <blockquote>I work from the window table every Thursday. Good Wi-Fi, no pressure to leave,
+                                and the staff remember my order.</blockquote>
+                            <figcaption><span class="avatar">NP</span>
+                                <div><strong>Nisha Patel</strong><small>Google Reviews</small></div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="review">
+                            <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <blockquote>Lovely garden seating and a brownie worth the visit on its own. We stayed far
+                                longer than planned.</blockquote>
+                            <figcaption><span class="avatar">RI</span>
+                                <div><strong>Rohan &amp; Isha</strong><small>Zomato</small></div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PLAN YOUR VISIT -->
+        <section class="section section-alt" id="visit">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Plan your visit</h2>
+                    <p>Walk in any time, or reserve a table for a group.</p>
+                </div>
+                <div class="visit-card">
+                    <div class="row g-0">
+                        <div class="col-lg-5">
+                            <div class="visit-info">
+                                <h3><i class="bi bi-geo-alt"></i> Address</h3>
+                                <p>Maple &amp; Bean Café<br>12 Garden Street, near City Park<br>Your City, 380001</p>
+                                <h3><i class="bi bi-clock"></i> Opening hours</h3>
+                                <table class="table hours">
+                                    <tbody>
+                                        <tr>
+                                            <td>Monday – Friday</td>
+                                            <td>8:00 am – 10:00 pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday – Sunday</td>
+                                            <td>8:00 am – 11:00 pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="d-flex flex-wrap gap-3 mt-4">
+                                    <a href="https://maps.app.goo.gl/JmYxHPwfoP5fFDmz6" class="btn btn-gold"
+                                        target="_blank" rel="noopener">Get Directions</a>
+                                    <a href="tel:+910000000000" class="btn btn-outline-light">Reserve a Table</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="img-zoom visit-map" data-label="map-preview.jpg · 900×700"><img
+                                    src="images/image copy 20.png"
+                                    alt="Map preview showing the café location on Garden Street" width="900"
+                                    height="700" loading="lazy" onerror="this.remove()"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="footer-brand" href="#top"><i class="bi bi-cup-hot-fill"></i> Maple &amp; Bean</a>
+                    <p>Small-batch coffee, fresh bakes and a table for every mood.</p>
+                    <div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a
+                            href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#"
+                            aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4>Explore</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#favourites">Menu</a></li>
+                        <li><a href="menu.html">Our Story</a></li>
+                        <li><a href="#gallery">Visit Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h4>Visit</h4>
+                    <ul class="list-unstyled">
+                        <li>12 Garden Street</li>
+                        <li>Mon–Fri 8 am – 10 pm</li>
+                        <li>Sat–Sun 8 am – 11 pm</li>
+                        <li>+91 9601080496</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Get café news</h4>
+                    <form class="news" onsubmit="return false"><label class="visually-hidden" for="email">Email
+                            address</label><input id="email" type="email" class="form-control"
+                            placeholder="Your email"><button class="btn btn-gold" type="submit">Join</button></form>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 Maple &amp; Bean Café. All rights reserved.</span><span>Fresh
+                    coffee. Fresh bakes. Slow mornings.</span></div>
+        </div>
+    </footer>
+
+    <a href="#top" class="to-top" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            var nav = document.getElementById('siteNav');
+            var backBtn = document.getElementById('toTop');
+            var ticking = false;
+            function update() {
+                var y = window.pageYOffset || document.documentElement.scrollTop;
+                nav.classList.toggle('scrolled', y > 10);      // blur starts as soon as scrolling begins
+                backBtn.classList.toggle('show', y > 600);
+                ticking = false;
+            }
+            window.addEventListener('scroll', function () {
+                if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+            }, { passive: true });
+            update();
+        })();
+    </script>
+</body>
+
+</html>

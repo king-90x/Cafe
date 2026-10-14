@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Maple &amp; Bean Café</title>
+  <meta name="description"
+    content="Browse our full menu: hot and cold coffee, tea, breakfast, savoury bites, desserts and seasonal specials.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/menu.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/image copy 45.png" type="icon">
+
+</head>
+
+<body class="menu-page">
+
+  <nav class="navbar navbar-expand-lg fixed-top site-nav scrolled" id="siteNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-cup-hot-fill"></i> Maple &amp; Bean</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+        aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                    <li class="nav-item"><a class="nav-link"  href="index.html">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#favourites">Favourites</a></li> -->
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="story.html">Our story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="visit.html">Visit us</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li> -->
+                    <li class="nav-item mt-3 mt-lg-0"><a class="btn btn-cafe btn-sm" href="index.html#visit">Book a Table</a></li>
+                </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- 1. INTRO -->
+    <header class="menu-hero">
+      <img src="images/image copy 28.png" alt="Flat lay of coffee, croissants and desserts on a wooden table" width="1920"
+        height="700" class="hero-img" onerror="this.remove()">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative ju d-flex flex-column align-items-center justify-content-center">
+        <p class="hero-tag"><span></span> Our menu</p>
+        <h1>Find Your New Favourite.</h1>
+        <p class="lead text-align-center">Coffee made to order, food baked and cooked fresh every day. Tap a category to
+          jump straight to it.</p>
+      </div>
+    </header>
+
+    <!-- 2. CATEGORY NAV -->
+    <div class="cat-bar" id="catBar">
+      <div class="container">
+        <nav class="cat-scroll" aria-label="Menu categories" id="catScroll">
+          <a href="#hot-coffee" class="active"><i class="bi bi-cup-hot"></i> Hot Coffee</a>
+          <a href="#cold-coffee"><i class="bi bi-cup-straw"></i> Cold Drinks</a>
+          <a href="#tea"><i class="bi bi-cup"></i> Tea</a>
+          <a href="#breakfast"><i class="bi bi-egg-fried"></i> Breakfast</a>
+          <a href="#savouries"><i class="bi bi-basket2"></i> Bites</a>
+          <a href="#desserts"><i class="bi bi-cake2"></i> Desserts</a>
+          <a href="#specials"><i class="bi bi-stars"></i> Specials</a>
+          <a href="#customise"><i class="bi bi-sliders"></i> Customise</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="legend list-unstyled">
+        <li><span class="dot veg" title="Vegetarian"></span> Vegetarian</li>
+        <li><span class="dot nonveg" title="Non-vegetarian"></span> Non-vegetarian</li>
+        <li><span class="tag tag-egg">Eggless</span></li>
+        <li><span class="tag tag-vegan">Vegan option</span></li>
+        <li>Prices in ₹, inclusive of taxes</li>
+      </ul>
+    </div>
+
+    <section class="menu-section " id="hot-coffee">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Hot Coffee</h2>
+          <p>Espresso-based classics. Regular is 240 ml and Large is 350 ml.</p>
+        </div>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Espresso </h3>
+              <p>Short, concentrated shot with a caramel crema.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Single</em>₹110</span><span
+                class="size"><em>Double</em>₹150</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Americano </h3>
+              <p>Espresso lengthened with hot water. Clean and bold.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹150</span><span
+                class="size"><em>Large</em>₹190</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Cappuccino </h3>
+              <p>Equal parts espresso, steamed milk and thick foam.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹180</span><span
+                class="size"><em>Large</em>₹220</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Flat White </h3>
+              <p>Double ristretto with velvety microfoam.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹190</span><span
+                class="size"><em>Large</em>₹230</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Café Latte </h3>
+              <p>Smooth espresso with plenty of steamed milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹190</span><span
+                class="size"><em>Large</em>₹230</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Cortado </h3>
+              <p>Espresso cut with an equal measure of warm milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹160</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3>Mocha <span class="tag tag-best">Bestseller</span></h3>
+              <p>Espresso, dark chocolate and steamed milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹210</span><span
+                class="size"><em>Large</em>₹250</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section alt" id="cold-coffee">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Cold Coffee &amp; Refreshers</h2>
+          <p>Iced coffee, shakes and cool drinks for warm days.</p>
+        </div>
+        <div class="row g-4 mb-5">
+          <div class="col-sm-6 col-lg-3">
+            <article class="photo-card">
+              <div class="img-zoom ratio-card" data-label="iced-latte.jpg · 600×450"><img src="images/image copy 21.png"
+                  alt="Iced Latte" width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <h3>Iced Latte </h3>
+                <p>Double espresso poured over cold milk and ice.</p>
+                <div class="mi-sizes"><span class="size"><em>Regular</em>₹200</span><span
+                    class="size"><em>Large</em>₹240</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="photo-card">
+              <div class="img-zoom ratio-card" data-label="cold-brew.jpg · 600×450"><img src="images/image copy 22.png"
+                  alt="18-Hour Cold Brew" width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <h3>18-Hour Cold Brew <span class="tag tag-best">Bestseller</span></h3>
+                <p>Steeped slowly for a smooth, chocolatey finish.</p>
+                <div class="mi-sizes"><span class="size"><em>Regular</em>₹240</span><span
+                    class="size"><em>Large</em>₹290</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="photo-card">
+              <div class="img-zoom ratio-card" data-label="shake.jpg · 600×450"><img src="images/image copy 23.png"
+                  alt="Chocolate Espresso Shake" width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <h3>Chocolate Espresso Shake </h3>
+                <p>Thick dark-chocolate shake with a shot of espresso.</p>
+                <div class="mi-sizes"><span class="size">₹280</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="photo-card">
+              <div class="img-zoom ratio-card" data-label="iced-tea.jpg · 600×450"><img src="images/image copy 24.png"
+                  alt="Peach Iced Tea" width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <h3>Peach Iced Tea </h3>
+                <p>House-brewed black tea, peach and a squeeze of lemon.</p>
+                <div class="mi-sizes"><span class="size">₹190</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <h3 class="sub-title">More cold drinks</h3>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Iced Americano </h3>
+              <p>Espresso over ice and cold water. Crisp and refreshing.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹170</span><span
+                class="size"><em>Large</em>₹210</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Vanilla Coffee Frappe </h3>
+              <p>Blended coffee, vanilla and ice, finished with cream.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹260</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Cucumber Mint Cooler <span class="tag tag-vegan">Vegan
+                  option</span></h3>
+              <p>Fresh cucumber, mint and lime over crushed ice.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹170</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Sparkling Lemon &amp; Basil <span
+                  class="tag tag-vegan">Vegan option</span></h3>
+              <p>Lemon, basil syrup and soda, lightly sweet.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹180</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section " id="tea">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Tea &amp; Non-Coffee Drinks</h2>
+          <p>Plenty to choose from if coffee is not your thing.</p>
+        </div>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Cardamom Masala Chai <span
+                  class="tag tag-best">Bestseller</span></h3>
+              <p>Slow-simmered with whole spices, ginger and fresh milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Cup</em>₹120</span><span class="size"><em>Pot
+                  (2)</em>₹220</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Darjeeling First Flush <span
+                  class="tag tag-vegan">Vegan option</span></h3>
+              <p>Light, floral and brewed fresh by the pot.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Pot</em>₹190</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Jasmine Green Tea <span class="tag tag-vegan">Vegan
+                  option</span></h3>
+              <p>Delicate green tea scented with jasmine.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Pot</em>₹170</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Chamomile &amp; Honey </h3>
+              <p>Caffeine-free, calming and gently sweet.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Pot</em>₹170</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Hot Chocolate </h3>
+              <p>Dark chocolate melted into steamed milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹220</span><span
+                class="size"><em>Large</em>₹260</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Turmeric Latte <span class="tag tag-vegan">Vegan
+                  option</span></h3>
+              <p>Turmeric, ginger, cinnamon and steamed milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹190</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Matcha Latte <span class="tag tag-new">New</span></h3>
+              <p>Ceremonial-grade matcha whisked with milk.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Regular</em>₹230</span><span
+                class="size"><em>Large</em>₹270</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section alt" id="breakfast">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Breakfast</h2>
+          <p>Served till 12 noon every day.</p>
+        </div>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot nonveg" title="Non-vegetarian"></span>Eggs Your Way on Sourdough </h3>
+              <p>Two eggs, scrambled, fried or poached, on house sourdough.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹280</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Avocado Toast <span class="tag tag-vegan">Vegan
+                  option</span></h3>
+              <p>Smashed avocado, chilli flakes and lime on toasted sourdough.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹320</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot nonveg" title="Non-vegetarian"></span>Masala Omelette &amp; Toast </h3>
+              <p>Three-egg omelette with onion, chilli and coriander.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹240</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Granola &amp; Yoghurt Bowl </h3>
+              <p>Honey-roasted granola, thick yoghurt and seasonal fruit.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹260</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Maple Pancakes </h3>
+              <p>Fluffy stack with maple syrup and whipped butter.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹290</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section " id="savouries">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Savoury Bites</h2>
+          <p>Sandwiches, quiches, pasta and pizza, available all day.</p>
+        </div>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Pesto Sourdough Melt <span
+                  class="tag tag-best">Bestseller</span></h3>
+              <p>House sourdough, basil pesto, mozzarella and roasted tomato.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹290</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot nonveg" title="Non-vegetarian"></span>Grilled Chicken Club </h3>
+              <p>Triple-decker with grilled chicken, lettuce and herb mayo.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹340</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Mushroom &amp; Cheese Quiche </h3>
+              <p>Buttery shortcrust with roasted mushrooms and cheddar.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹260</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Penne Arrabbiata <span class="tag tag-vegan">Vegan
+                  option</span></h3>
+              <p>Spicy tomato sauce, garlic and basil.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹320</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Margherita Pizza </h3>
+              <p>Thin crust, tomato, mozzarella and fresh basil.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>9-inch</em>₹360</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section alt" id="desserts">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Desserts &amp; Bakery</h2>
+          <p>Baked in-house every morning. Eggless options are clearly marked.</p>
+        </div>
+        <ul class="menu-list list-unstyled">
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Almond Croissant <span
+                  class="tag tag-best">Bestseller</span></h3>
+              <p>Buttery layers filled with almond cream. Baked every morning.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹180</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Butter Croissant </h3>
+              <p>Classic, flaky and golden.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹140</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Espresso Brownie <span
+                  class="tag tag-egg">Eggless</span></h3>
+              <p>Dense and fudgy, served warm with vanilla ice cream.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹210</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Carrot &amp; Walnut Cake <span
+                  class="tag tag-egg">Eggless</span></h3>
+              <p>Spiced sponge with cream-cheese frosting.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Slice</em>₹240</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Chocolate Chip Cookie <span
+                  class="tag tag-egg">Eggless</span></h3>
+              <p>Crisp edges, soft centre, sea salt on top.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹110</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Basque Cheesecake </h3>
+              <p>Creamy with a caramelised top.</p>
+            </div>
+            <div class="mi-sizes"><span class="size"><em>Slice</em>₹290</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="mi-main">
+              <h3><span class="dot veg" title="Vegetarian"></span>Tiramisu </h3>
+              <p>Espresso-soaked sponge and mascarpone cream.</p>
+            </div>
+            <div class="mi-sizes"><span class="size">₹280</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu-section dark" id="specials">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Signature &amp; Seasonal Specials</h2>
+          <p>House favourites, seasonal dishes and combos. Availability changes, so ask at the counter.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="photo-card dark">
+              <div class="img-zoom ratio-card" data-label="special-drink.jpg · 600×450"><span class="dish-badge">House
+                  special</span><img src="images/image copy 25.png" alt="Honeycomb Cold Brew Tonic" width="600"
+                  height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <div class="dish-top">
+                  <h3>Honeycomb Cold Brew Tonic</h3><span class="price">₹260</span>
+                </div>
+                <p>Cold brew, tonic water and house honeycomb syrup over ice.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="photo-card dark">
+              <div class="img-zoom ratio-card" data-label="special-seasonal.jpg · 600×450"><span
+                  class="dish-badge">Seasonal</span><img src="images/image copy 26.png" alt="Cinnamon Pumpkin Latte"
+                  width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <div class="dish-top">
+                  <h3>Cinnamon Pumpkin Latte</h3><span class="price">₹240</span>
+                </div>
+                <p>Espresso, roasted pumpkin and cinnamon. Autumn only.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="photo-card dark">
+              <div class="img-zoom ratio-card" data-label="special-combo.jpg · 600×450"><span
+                  class="dish-badge">Combo</span><img src="images/image copy 27.png" alt="Coffee &amp; Croissant Combo"
+                  width="600" height="450" loading="lazy" onerror="this.remove()"></div>
+              <div class="pc-body">
+                <div class="dish-top">
+                  <h3>Coffee &amp; Croissant Combo</h3><span class="price">₹299</span>
+                </div>
+                <p>Any regular hot coffee with a butter croissant.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CUSTOMISE -->
+    <section class="menu-section" id="customise">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Customise your order</h2>
+          <p>Make any drink the way you like it.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="panel">
+              <h3><i class="bi bi-plus-circle"></i> Add-ons &amp; extra charges</h3>
+              <ul class="addons list-unstyled">
+                <li><span>Extra espresso shot</span><strong>+₹40</strong></li>
+                <li><span>Oat milk</span><strong>+₹50</strong></li>
+                <li><span>Almond milk</span><strong>+₹50</strong></li>
+                <li><span>Soy milk</span><strong>+₹40</strong></li>
+                <li><span>Sugar-free syrup</span><strong>+₹20</strong></li>
+                <li><span>Flavour syrup (vanilla, hazelnut, caramel)</span><strong>+₹30</strong></li>
+                <li><span>Whipped cream</span><strong>+₹30</strong></li>
+                <li><span>Decaf beans</span><strong>+₹30</strong></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="panel mb-4">
+              <h3><i class="bi bi-droplet-half"></i> Sweetness level</h3>
+              <p class="mb-3">No extra charge. Choose one when you order.</p>
+              <div class="chips"><span>No sugar</span><span>Less sweet</span><span>Regular</span><span>Extra
+                  sweet</span></div>
+            </div>
+            <!-- <div class="panel note">
+              <h3><i class="bi bi-exclamation-circle"></i> Allergies &amp; dietary needs</h3>
+              <p class="mb-0">Our kitchen handles nuts, dairy, gluten, eggs and soy. Please tell us about any allergy or
+                dietary requirement before ordering and our team will guide you. We cannot guarantee that any item is
+                completely free of allergens.</p>
+            </div> -->
+          </div>
+        </div>
+        <div class="menu-cta">
+          <div>
+            <h3>Ready to order?</h3>
+            <p>Walk in any time, or reserve a table for your group.</p>
+          </div>
+          <div class="d-flex flex-wrap gap-3"><a href="index.html#visit" class="btn btn-cafe btn-lg">Book a Table</a><a
+              href="index.html#visit" class="btn btn-outline-cafe btn-lg">Get Directions</a></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="footer-brand" href="#top"><i class="bi bi-cup-hot-fill"></i> Maple &amp; Bean</a>
+                    <p>Small-batch coffee, fresh bakes and a table for every mood.</p>
+                    <div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a
+                            href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#"
+                            aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h4>Explore</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#favourites">Menu</a></li>
+                        <li><a href="menu.html">Our Story</a></li>
+                        <li><a href="#gallery">Visit Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h4>Visit</h4>
+                    <ul class="list-unstyled">
+                        <li>12 Garden Street</li>
+                        <li>Mon–Fri 8 am – 10 pm</li>
+                        <li>Sat–Sun 8 am – 11 pm</li>
+                        <li>+91 9601080496</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Get café news</h4>
+                    <form class="news" onsubmit="return false"><label class="visually-hidden" for="email">Email
+                            address</label><input id="email" type="email" class="form-control"
+                            placeholder="Your email"><button class="btn btn-gold" type="submit">Join</button></form>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 Maple &amp; Bean Café. All rights reserved.</span><span>Fresh
+                    coffee. Fresh bakes. Slow mornings.</span></div>
+        </div>
+    </footer>
+
+  <a href="#top" class="to-top" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      var links = [].slice.call(document.querySelectorAll('#catScroll a'));
+      var wrap = document.getElementById('catScroll');
+      var backBtn = document.getElementById('toTop');
+      var sections = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+      var last = '';
+      function setActive(id) {
+        if (id === last) { return; }
+        last = id;
+        links.forEach(function (a) {
+          var on = a.getAttribute('href') === '#' + id;
+          a.classList.toggle('active', on);
+          if (on) { wrap.scrollTo({ left: a.offsetLeft - 16, behavior: 'smooth' }); }
+        });
+      }
+      function update() {
+        var y = window.pageYOffset + 170, current = sections[0].id;
+        sections.forEach(function (s) { if (s && s.offsetTop <= y) current = s.id; });
+        setActive(current);
+        backBtn.classList.toggle('show', window.pageYOffset > 600);
+      }
+      var ticking = false;
+      window.addEventListener('scroll', function () {
+        if (!ticking) { requestAnimationFrame(function () { update(); ticking = false; }); ticking = true; }
+      }, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+
+</html>
